@@ -6,12 +6,11 @@ var counter = 0;
 
 
 function increment(){
-   counter++;
-   counterDisp.innerHTML = "The number of clicks: " + counter;
-
+    counter++;
+    counterDisp.innerHTML = "The number of clicks: " + counter;
 }
 
 if(photo) {
-photo.addEventListener('click', increment, false);
+    photo.addEventListener('click', increment, false);
 
 } 
