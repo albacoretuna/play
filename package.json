@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/omidfi/play/issues"
   },
-  "homepage": "https://github.com/omidfi/play"
+  "homepage": "https://github.com/omidfi/play",
+  "devDependencies": {
+    "gulp": "^3.8.11"
+  }
 }
